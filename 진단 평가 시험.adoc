@@ -641,8 +641,8 @@ public class Exam3_2_4 {
 
 [source,java]
 public class Calculator {
-    public List<String> parsing(String expression, String pattern) { ... }
-    public List<String> infixToPostfix(List<String> expression, String pattern) { ... }
+    public List<String> parsing(String expression) { ... }
+    public List<String> infixToPostfix(List<String> expression) { ... }
     public static int run(String expression){ ... }
 }
 
