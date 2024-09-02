@@ -95,6 +95,11 @@ public class Exam1_1 {
 
 **정의**
 
+ifdef::env-github[]
+image::finobacci.png[]
+endif::[]
+
+ifndef::env-github[]
 [stem]
 ++++
 f(n) =
@@ -104,6 +109,7 @@ f(n-1) + f(n-2) \quad &n > 1\\
 0 \quad &n = 0\\
 \end{cases}
 ++++
+endif::[]
 
 **확인 코드**
 
